@@ -1,6 +1,6 @@
 {
-  "name": "cockpit-template2",
-  "version": "0.1.1",
+  "name": "cockpit-template-vue2.6",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
@@ -21,8 +21,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "6.0.1",
-    "sass-loader": "10.0.3",
+    "sass": "^1.53.0",
+    "sass-loader": "^10.0.0",
     "standard-version": "^9.5.0",
     "vue-template-compiler": "^2.6.10"
   },
