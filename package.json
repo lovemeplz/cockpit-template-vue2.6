@@ -6,6 +6,7 @@
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "prepare": "husky install",
     "release": "standard-version",
     "analyze": ""
   },
@@ -28,6 +29,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "husky": "^8.0.1",
     "sass": "^1.53.0",
     "sass-loader": "^10.0.0",
     "standard-version": "^9.5.0",
