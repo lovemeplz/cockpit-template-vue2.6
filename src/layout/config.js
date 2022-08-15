@@ -1,3 +1,4 @@
+export const mainTitle = ''
 export const menuItems = [
   {
     code: 'zhts',

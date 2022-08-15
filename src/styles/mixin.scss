@@ -1,0 +1,46 @@
+// flex布局  水平、垂直方向居中，文字居中（可配）
+@mixin flex-center($align: center){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: $align;
+}
+
+
+// 溢出省略号
+@mixin ellipsis($rowCount: 1) {
+  @if $rowCount <=1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  } @else {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $rowCount;
+    -webkit-box-orient: vertical;
+  }
+}
+
+
+// 三角形
+@mixin triangle($width: 4px, $color: #000) {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top: $width solid $color;
+  border-left: $width solid transparent;
+  border-right: $width solid transparent;
+}
+
+// 背景图片
+@mixin backgroundImage($imgUrl: '') {
+  background: url($imgUrl) no-repeat center center;
+  background-size: 100%;
+}
+
+
+
+// 组件相关

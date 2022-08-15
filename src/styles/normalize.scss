@@ -1,0 +1,22 @@
+
+html,body,#app{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  background-color: black;
+}
+
+ul,ol,div,p,h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+  border:0;
+}

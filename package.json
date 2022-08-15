@@ -6,10 +6,17 @@
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "release": "standard-version"
+    "release": "standard-version",
+    "analyze": ""
   },
   "dependencies": {
+    "@cci/cp-count": "^1.3.5",
+    "@cci/cp-count-switch": "^1.3.14",
+    "@cci/cp-theme-ant": "^1.0.18",
+    "@cci/cp-wrap-table": "^2.0.1",
+    "axios": "^0.27.2",
     "core-js": "^2.6.5",
+    "hls.js": "^1.2.0",
     "vue": "^2.6.10",
     "vue-router": "^3.5.2",
     "vuex": "^4.0.2"

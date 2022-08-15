@@ -1,1 +1,1 @@
-export { default } from './src/BasePanel.vue'
+export { default } from './src/base-panel.vue'

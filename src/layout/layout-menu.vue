@@ -1,5 +1,8 @@
 <template>
-  <div class="layout-menu">menu</div>
+  <div class="layout-menu">
+    <div class="back-to-home"></div>
+    <div class="menu"></div>
+  </div>
 </template>
 
 <script>
